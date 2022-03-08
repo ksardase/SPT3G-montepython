@@ -1,0 +1,60 @@
+# SPT3G Y1 EE/TE
+
+SPT3G_Y1_EETE_spectra_to_fit = 90_Ex90_E 90_Tx90_E 90_Ex150_E 90_Tx150_E 90_Ex220_E 90_Tx220_E 150_Ex150_E 150_Tx150_E 150_Ex220_E 150_Tx220_E 220_Ex220_E 220_Tx220_E
+
+SPT3G_Y1_EETE_bin_min = 1
+SPT3G_Y1_EETE_bin_max = 44
+
+# Default switches for foregrounds
+SPT3G_Y1_EETE_super_sample_lensing = T
+SPT3G_Y1_EETE_radio_galaxies = T
+SPT3G_Y1_EETE_dsfg = T
+SPT3G_Y1_EETE_dust = T
+
+# Reference frequencies for foregrounds
+SPT3G_Y1_EETE_radio_galaxies_nu0 = 150.0
+SPT3G_Y1_EETE_dsfg_nu0 = 150.0
+SPT3G_Y1_EETE_dust_nu0 = 150.0
+
+# Parameter file information
+SPT3G_Y1_EETE_params_file = data/SPT3G_Y1_EETE/SPT3G_Y1_EETE.paramnames
+
+# Banpower information
+SPT3G_Y1_EETE_bandpower_file = SPT3G_Y1_EETE_bandpowers.dat
+SPT3G_Y1_EETE_bandpower_file_order = 90_Ex90_E 90_Tx90_E 90_Ex150_E 90_Tx150_E 90_Ex220_E 90_Tx220_E 150_Ex150_E 150_Tx150_E 150_Ex220_E 150_Tx220_E 220_Ex220_E 220_Tx220_E
+
+# Covariance information
+SPT3G_Y1_EETE_covariance_matrix = SPT3G_Y1_EETE_covariance.dat
+SPT3G_Y1_EETE_covariance_matrix_order = 90_Ex90_E 90_Tx90_E 90_Ex150_E 90_Tx150_E 90_Ex220_E 90_Tx220_E 150_Ex150_E 150_Tx150_E 150_Ex220_E 150_Tx220_E 220_Ex220_E 220_Tx220_E
+SPT3G_Y1_EETE_beam_covariance_matrix = SPT3G_Y1_EETE_beam_covariance.dat
+SPT3G_Y1_EETE_beam_covariance_matrix_order = 90_Ex90_E 90_Tx90_E 90_Ex150_E 90_Tx150_E 90_Ex220_E 90_Tx220_E 150_Ex150_E 150_Tx150_E 150_Ex220_E 150_Tx220_E 220_Ex220_E 220_Tx220_E
+
+# Window file information
+SPT3G_Y1_EETE_window_folder = data/SPT3G_Y1_EETE/windows/
+SPT3G_Y1_EETE_window_folder_order = 90_Ex90_E 90_Tx90_E 90_Ex150_E 90_Tx150_E 90_Ex220_E 90_Tx220_E 150_Ex150_E 150_Tx150_E 150_Ex220_E 150_Tx220_E 220_Ex220_E 220_Tx220_E
+SPT3G_Y1_EETE_window_l_min = 1
+SPT3G_Y1_EETE_window_l_max = 3200
+
+# Central frequency file information
+SPT3G_Y1_EETE_central_frequency_file = SPT3G_Y1_EETE_effective_band_centres.dat
+SPT3G_Y1_EETE_central_frequency_file_order = 90 150 220
+
+# Nuisance parameter priors
+SPT3G_Y1_EETE_cal_covariance_matrix = SPT3G_Y1_EETE_cal_covariance.dat
+
+SPT3G_Y1_EETE_cal_prior = T
+
+SPT3G_Y1_EETE_kappa_prior = T
+SPT3G_Y1_EETE_kappa_mean = 0.0
+SPT3G_Y1_EETE_kappa_sigma = 0.00045
+
+SPT3G_Y1_EETE_Alpha_Dust_EE_prior = T
+SPT3G_Y1_EETE_Alpha_Dust_EE_mean = -2.42
+SPT3G_Y1_EETE_Alpha_Dust_EE_sigma = 0.02
+
+SPT3G_Y1_EETE_Alpha_Dust_TE_prior = T
+SPT3G_Y1_EETE_Alpha_Dust_TE_mean = -2.42
+SPT3G_Y1_EETE_Alpha_Dust_TE_sigma = 0.02
+
+SPT3G_Y1_EETE_Beam_Covariance_Scaling = 1.0
+
