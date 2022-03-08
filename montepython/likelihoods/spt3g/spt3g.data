@@ -1,0 +1,55 @@
+spt3g.data_directory = 'data/spt3g'
+
+#bandpowers and covamatrices
+spt3g.bandpower_filename = 'SPT3G_Y1_EETE_bandpowers.dat'
+spt3g.covariance_filename = 'SPT3G_Y1_EETE_covariance.dat'
+spt3g.beam_covariance_filename = 'SPT3G_Y1_EETE_beam_covariance.dat'
+spt3g.cal_covariance_filename = 'SPT3G_Y1_EETE_cal_covariance.dat'
+
+#windows
+spt3g.window_folder = 'windows/'
+spt3g.SPT3G_windows_lmin = 1
+spt3g.SPT3G_windows_lmax = 3200
+
+#foregrounds
+spt3g.SPT3G_Y1_EETE_super_sample_lensing = True
+spt3g.SPT3G_Y1_EETE_poisson_sources = True
+spt3g.SPT3G_Y1_EETE_dust = True
+
+#Central frequency file information
+spt3g.nu_eff_filename = 'SPT3G_Y1_EETE_effective_band_centres.dat'
+
+#constant 
+spt3g.Ghz_Kelvin = 0.047992433484894924
+
+#aberration_coefficient
+spt3g.SPT3G_Y1_EETE_aberration_coefficient = -0.0004826
+
+#foreground reference frequencies
+spt3g.nu_0_radio = 150.
+spt3g.nu_0_dsfg = 150.
+spt3g.nu_0_dust = 150.
+
+#bin selection
+spt3g.bin_min = 1
+spt3g.bin_max = 44
+
+#Nuisance parameter prior information
+
+spt3g.SPT3G_Y1_EETE_cal_prior = True
+
+spt3g.SPT3G_Y1_EETE_kappa_prior = True
+spt3g.SPT3G_Y1_EETE_Kappa_mean = 0.0
+spt3g.SPT3G_Y1_EETE_Kappa_sigma = 0.00045
+
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_EE_prior = True
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_EE_mean = -2.42
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_EE_sigma = 0.02
+
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_TE_prior = True
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_TE_mean = -2.42
+spt3g.SPT3G_Y1_EETE_Alpha_Dust_TE_sigma = 0.02
+
+spt3g.BeamCovScaling = 1.0
+
+spt3g.use_nuisance = ['Kappa','Dl_Poisson_90x90','Dl_Poisson_90x150','Dl_Poisson_90x220','Dl_Poisson_150x150','Dl_Poisson_150x220','Dl_Poisson_220x220','TDust','ADust_TE_150','BetaDust_TE','AlphaDust_TE','ADust_EE_150','BetaDust_EE','AlphaDust_EE','MapTcal90','MapTcal150','MapTcal220','MapPcal90','MapPcal150','MapPcal220']
