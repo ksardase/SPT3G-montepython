@@ -11,7 +11,7 @@ The original likelihood written for different MCMC sampler CosmoMC was presented
 Our likelihood was tested with [Montepython v3.4](https://baudren.github.io/montepython.html) and introduced in the paper
 
 * [*Exploring LCDM extensions with SPT-3G and Planck data: 4σ evidence for neutrino masses, full resolution of the Hubble crisis by dark
-  energy with phantom crossing, and all that*](https://arxiv.org/abs/2203.XXXXX)
+  energy with phantom crossing, and all that*](https://arxiv.org/abs/2203.03666)
 
 The repo includes: 
 
@@ -19,4 +19,4 @@ The repo includes:
 
 # Using the code
 
-You can use SPT3G-likelihood freely, provided that in your publications you cite [arXiv:2203.XXXXX](https://arxiv.org/abs/22XX.XXXXX). 
+You can use SPT3G-likelihood freely, provided that in your publications you cite [arXiv:2203.03666](https://arxiv.org/abs/2203.03666). 
